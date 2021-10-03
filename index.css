@@ -1,0 +1,98 @@
+:root {
+    --title: 'Press Start 2P', cursive;
+    --texte: 'Azeret Mono', monospace;
+    --desc: 'Open Sans', sans-serif;
+    --colortitle: rgb(216, 216, 216);
+    --colortexte: rgb(255, 255, 255);
+    --colorlink: rgb(77, 137, 228);
+}
+body {
+    background-color: rgb(45, 44, 46);
+}
+#maintitle {
+    font-family: var(--title);
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--colortitle);
+    text-align: center;
+    margin-top: 20px;
+}
+.title {
+    font-family: var(--title);
+    font-size: 28px;
+    color: var(--colortitle);
+    text-align: center;
+    margin: 20px;
+}
+.text {
+    font-family: var(--texte);
+    font-size: 20px;
+    color: var(--colortexte);
+    text-align: center;
+}
+#me {
+    background-color:rgb(32, 32, 32);
+    border-top: 85px solid rgb(20, 20, 20);
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 350px;
+    height: 375px;
+}
+img {
+    width: 165px;
+    margin: 0 auto;
+    margin-bottom: -45px;
+    margin-top: -83px;
+    padding: 35px;
+    border-radius: 50%;
+}
+#separation {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-family: var(--desc);
+    color:rgb(194, 194, 194);
+    border-bottom: 0.5px solid rgb(65, 65, 65);
+    width: 320px;
+}
+.description {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 20px;
+    font-family: var(--desc);
+    color: var(--colorlink);
+}
+span {
+    color: rgb(194, 194, 194);
+}
+#taillenom {
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+}
+div #aboutme {
+    width: 80%;
+    height: 29%;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.abme {
+    color: rgb(207, 207, 207);
+    text-align: center;
+    font-size: 15px;
+}
+.dev {
+    width: 37px;
+    display: inline-block;
+    background-color:rgb(65, 65, 65);
+    border-radius: 4px;
+}
+.copyright {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
